@@ -103,11 +103,13 @@ margin-bottom: 12px;
     margin-bottom: 32px;
 }
 
+/* vision card style */
 .vision-cards{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
+    margin-bottom: 32px;
 }
 /* vision card 1 */
 .vision-card-1{
@@ -150,5 +152,34 @@ margin-bottom: 12px;
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
+}
+/* Quote style */
+.quote{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+
+.quote-description{
+    margin-top: -50px;
+    font-size: 16px;
+    color: #0E0E0E;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 12px;
+}
+.quote-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 4px;
+}
+.quote-sub-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    line-height: 24px;
 }
 
