@@ -2,6 +2,7 @@
     font-family: "Fira Sans", serif;
     font-style: normal;
     margin: 0 160px;
+    background-color: #e8ecea;
   }
 /*  nav style*/
 nav{
@@ -161,8 +162,8 @@ margin-bottom: 12px;
     border-color:rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     padding: 48px 24px;
+    margin-bottom: 80px;
 }
-
 .quote-description{
     margin-top: -50px;
     font-size: 16px;
@@ -183,3 +184,57 @@ margin-bottom: 12px;
     line-height: 24px;
 }
 
+
+.news-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.news-subtitle{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+
+.news-card-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    /* box-shadow: 1px 1px ; */
+    margin-bottom: 80px;
+    background-color: white;
+    border-radius: 16px;
+}
+.news-card-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+.span{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    line-height: 24px;
+}
+.news-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    line-height: 24px;
+}
+.news-btn{
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: #006A50;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
