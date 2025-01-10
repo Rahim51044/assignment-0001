@@ -1,13 +1,14 @@
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
     font-style: normal;
+    margin: 0 160px;
   }
 /*  nav style*/
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 160px;
+    /* margin: 0 160px; */
 }
 .text-title{
     font-size: 32px;
@@ -26,13 +27,14 @@ nav{
 /* banner style */
 .banner{
     background-color:#C6E4D6;
-    margin: 0 160px;
+    /* margin: 0 160px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 80px 60px;
     gap: 64px;
     border-radius: 24px;
+    margin-bottom: 80px;
 }
 .banner-subtitle{
     font-size: 24px;
@@ -57,4 +59,31 @@ nav{
     color: #ffffff;
     border: none;
     margin-bottom: 24px;
+}
+
+.cards{
+    display: flex;
+    gap: 24px;
+}
+
+.card{
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cdcbcb;
+}
+.card-title{
+font-size: 20px;
+font-weight: bold;
+color: #0E0E0E;
+opacity: 80%;
+}
+.card-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    line-height: 24px;
 }
