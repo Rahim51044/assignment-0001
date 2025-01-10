@@ -61,6 +61,8 @@ nav{
     margin-bottom: 24px;
 }
 
+/* cards style */
+
 .cards{
     display: flex;
     gap: 24px;
@@ -80,10 +82,73 @@ font-size: 20px;
 font-weight: bold;
 color: #0E0E0E;
 opacity: 80%;
+margin-bottom: 12px;
 }
 .card-description{
     font-size: 16px;
     color: #0E0E0E;
     opacity: 70%;
     line-height: 24px;
+    /* margin-top: 12px; */
 }
+
+.h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+/* vision card 1 */
+.vision-card-1{
+    padding: 32px;
+    background-color:rgba(84, 144, 245, 0.2)
+}
+.vision-btn-1{
+    padding: 15px ;
+    border-radius: 8px;
+    border: none;
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+/* vision card 2 */
+.vision-card-2{
+    padding: 32px;
+    background-color: rgba(198, 228, 214, 1);
+}
+.vision-btn-2{
+    padding: 15px ;
+    border-radius: 8px;
+    border: none;
+    background-color: #09A15C;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+/* vision card 3 */
+.vision-card-3{
+    padding: 32px;
+    background-color: rgba(247, 235, 207, 1);
+}
+.vision-btn-3{
+    padding: 15px ;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFC239;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
