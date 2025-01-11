@@ -243,7 +243,7 @@ margin-bottom: 12px;
 /* donate style */
 .donate{
     gap: 24px;
-    height: 2000px;
+    /* height: 400px; */
 }
 
 .donate-cards{
@@ -314,6 +314,55 @@ padding: 40px;
 }
 
 
+.subscribe-content{
+    background-color: rgba(198, 228, 214, 1);
+    /* margin: 80px 265px; */
+    border-radius: 16px;
+}
+.H2{
+        padding-top: 80px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: #0E0E0E;
+
+}
+.P{
+    text-align: center;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70% ;
+    line-height: 24px;
+    margin: 16px 350px;
+}
+
+.enter-email{
+    margin: 20px 450px 24px 320px;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 500px;
+}
+.btn-subs{
+    padding: 18px 40px ;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #006A50;
+    margin-left: -500px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.subs-subtitle{
+    text-align: center;
+    font-size: 12px;
+    color: #0E0E0E;
+    opacity: 60%;
+    margin-bottom: 80px;
+    padding-bottom: 60px;
+}
 
 
 
