@@ -24,6 +24,10 @@ nav{
     font-weight: 600;
     background-color: white;
 }
+.btn-primary:hover{
+    background-color: aqua;
+    color:#ffffff;
+}
 
 /* banner style */
 .banner{
@@ -60,6 +64,9 @@ nav{
     color: #ffffff;
     border: none;
     margin-bottom: 24px;
+}
+.banner-btn:hover{
+    background-color: #0E0E0E;
 }
 
 /* cards style */
@@ -126,6 +133,9 @@ margin-bottom: 12px;
     font-weight: 600;
     color: #ffffff;
 }
+.vision-btn-1:hover{
+    background-color: #FFC239;
+}
 /* vision card 2 */
 .vision-card-2{
     padding: 32px;
@@ -140,6 +150,9 @@ margin-bottom: 12px;
     font-weight: 600;
     color: #ffffff;
 }
+.vision-btn-2:hover{
+    background-color:#5490F5;
+}
 /* vision card 3 */
 .vision-card-3{
     padding: 32px;
@@ -153,6 +166,9 @@ margin-bottom: 12px;
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
+}
+.vision-btn-3:hover{
+    background-color: rebeccapurple;
 }
 /* Quote style */
 .quote{
@@ -239,6 +255,9 @@ margin-bottom: 12px;
     font-weight: 600;
     font-size: 18px;
 }
+.news-btn:hover{
+    background-color: blue;
+}
 
 /* donate style */
 .donate{
@@ -273,9 +292,17 @@ margin-bottom: 12px;
     background-color: #ffffff;
     border-radius: 16px;
 }
+.donate-card:hover{
+    background-color: #C6E4D6;
+}
+    
 .donate-card-2{
     background-color: #C6E4D6;
     border-radius: 16px;
+}
+.donate-card-2:hover{
+    background-color: #de8080;
+    color: white;
 }
 .donate-amount{
 font-size: 40px;
@@ -312,6 +339,10 @@ padding: 40px;
 .btn-div{
     margin: 0 600px;
 }
+.btn-donate:hover{
+    background-color: green;
+}
+
 
 
 .subscribe-content{
@@ -354,6 +385,9 @@ padding: 40px;
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
+}
+.btn-subs:hover{
+    background-color: greenyellow;
 }
 .subs-subtitle{
     text-align: center;
